@@ -1,0 +1,108 @@
+* {
+    /* resets para padronizar os tamanho em todos os navegadores */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1px transparent solid ;
+}
+
+/* variáveis */
+:root {
+    --netflixBlack: #141414;
+    --netflixRed: #E50914;  
+}
+
+body {
+    background-color: var(--netflixBlack);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px transparent solid;
+}
+
+header .titleAndButton {
+    display: flex;
+    align-items: center;
+    border: 1px transparent solid;
+}
+
+header .logoNet {
+    height: 32;
+    width: 108px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: grey;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+header nav a:hover {
+    color: white;
+    font-weight: 520;
+}
+
+.buttonsSettings > * {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+/* Filme selecionado */
+
+.selectedMovie {
+    font-size: 16px;
+    height: 400px;
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0, 0, 0, 0.1)100%), url("../imgs/sense8.jpg");
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.selectedMovie  .selectMovieName {
+    margin-top: 10%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.selectedMovie .selectMovieDescription {
+    margin-top: 10px;
+    margin-bottom: 45px;
+}
+
+
+
+.button {
+    background-color: rgba(0,0,0,.70);
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 12px 25px;
+    margin-left: 10px;
+
+    border: 2px transparent solid;
+    border-radius: 5px;
+
+    /* abaixo um atributo que cuida do tempo de transição dos estados CSS, todos que tiverem vinculo com elemento button*/
+    transition: 0.3s ease all;
+}
+
+.button:hover {
+    border: 2px white solid;
+    background-color: black
+}
+
+.button i {
+    margin-left: 8px;
+}
