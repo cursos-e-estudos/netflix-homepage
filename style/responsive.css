@@ -1,0 +1,28 @@
+@media screen and (max-width: 600px) {
+    .titleAndButton a {
+        display: none;
+    }
+
+    .movieBox {
+        height: auto;
+    }
+
+    .selectMovieDescription {
+        text-align: justify;
+        margin-right: 10px;
+    }
+
+    .selectedMovie {
+        background-position: center;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .description {
+        /* width: 40%; */
+    }
+
+    .selectedMovie .container {
+        width: 40%;
+    }
+}
