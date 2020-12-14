@@ -70,6 +70,34 @@ header nav a:hover {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+
+    transition: 2s ease all;
+}
+
+/* filmes */
+.hilda {
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0, 0, 0, 0.1)100%), url("../imgs/hilda.jpg");
+    background-size: cover;
+}
+
+.sense8 {
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0, 0, 0, 0.1)100%), url("../imgs/sense8.jpg");
+    background-size: cover;
+}
+
+.carmen {
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0, 0, 0, 0.1)100%), url("../imgs/carmen.jpg");
+    background-size: cover;
+}
+
+.laEmbaixo {
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0, 0, 0, 0.1)100%), url("../imgs/3laembaixo.jpg");
+    background-size: cover;
+}
+
+.space {
+    background: linear-gradient(to right, rgba(0,0,0,.50), rgba(0, 0, 0, 0.1)100%), url("../imgs/finalspace.png");
+    background-size: cover;
 }
 
 .selectedMovie .container {
@@ -113,4 +141,20 @@ header nav a:hover {
 
 .button i {
     margin-left: 8px;
+}
+
+/* configs do carrousel */
+
+.movieBox {
+    width: 256px;
+    height: 144px;
+}
+
+.genre {
+    display: flex;
+    padding-top: 10px;
+    margin-left: 5px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 500;
 }

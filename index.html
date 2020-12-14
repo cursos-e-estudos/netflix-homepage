@@ -6,8 +6,11 @@
 
     <!-- Adicionando o CSS -->
     <link rel="stylesheet" href="style/main.css">
+    
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
     <title>Netflix do Biel</title>
 </head>
 <body>
@@ -30,22 +33,42 @@
         </nav>
     </header>   
     
+        
     <main>
-        <div class="selectedMovie">
+        <div id="imgBackground "class="selectedMovie">
             <div class="container">
-                <h3 class="selectMovieName">Nome da putaria aqui</h3>
+                <h3 class="selectMovieName">Nome aqui</h3>
                 <p class="selectMovieDescription">Descrição do filme aqui, uma longa descrição de coisas que acontecem na série que possívelmente são spoilers mas são necessárias para atrara a tenção de quem está assistindo</p>
             </div>
             <div class="buttons">
                 <button class="button" role="button">Assistir <i class="fas fa-play"></i></button>
                 <button class="button" role="button">Adicionar a lista <i class="fas fa-plus"></i></button>
             </div>
-            
         </div>
-
-        
     </main>
+    <div class="genre"><p> Meus preferidos</p></div>
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item buttonHilda"><img class="movieBox" src="imgs/hilda.jpg"></img></div>
+            <div class="item buttonCarmen"><img class="movieBox" src="imgs/carmen.jpg"></img></div>
+            <div class="item buttonSpace"><img class="movieBox" src="imgs/finalspace.png"></img></div>
+            <div class="item button3embaixo"><img class="movieBox" src="imgs/3laembaixo.jpg"></img></div>
+        </div>
+    </div>
 
+    <div class="genre"><p>Tretinhas</p></div>
+    <div class="carousel-movies">
+        <div class="owl-carousel owl-theme">
+            <div class="item buttonHilda"><img class="movieBox" src="imgs/sabrina.jpg"></img></div>
+            <div class="item buttonHilda"><img class="movieBox" src="imgs/sense8.jpg"></img></div>
+            <div class="item buttonHilda"><img class="movieBox" src="imgs/blackmirror.jpg"></img></div>
+            <div class="item buttonHilda"><img class="movieBox" src="imgs/papel.jpg"></img></div>
+            <div class="item buttonHilda"><img class="movieBox" src="imgs/robot.jpg"></img></div>
+        </div>
+    </div>
     <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
