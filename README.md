@@ -25,3 +25,6 @@ Para testar a versão ao vivo, [clique aqui.](https://cursos-e-estudos.github.io
   <img width="320" src="imgs/screenshot2.png">
 </p>
 
+<br>
+
+Outros projetos pessoais podem ser vistos no meu perfil, @SouVitorGabriel.
